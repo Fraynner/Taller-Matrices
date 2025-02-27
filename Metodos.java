@@ -47,4 +47,13 @@ public class Metodos {
         }
         return result;
     }
+    public int sumarCantidad(Producto[][] m){
+        int suma = 0;
+        for (int i = 0; i < m.length; i++) {
+            for (int j = 0; j < m.length; j++) {
+                suma += m[i][j].getCantidad();
+            }
+        }
+        return suma;
+    }
 }
