@@ -14,7 +14,10 @@ public class Main {
                 Punto1 objP1 = new Punto1();
                 objP1.P1(dimension);
                 break;
-        
+            case 2:
+                Punto2 objP2 = new Punto2();
+                objP2.P2(dimension);
+                break;
             default:
                 break;
         }
